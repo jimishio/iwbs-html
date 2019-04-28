@@ -267,7 +267,7 @@ section
 .top_bar
 {
 	width: 100%;
-	background: #351338;
+	background: #7D2C6F;
 }
 .header.scrolled .top_bar
 {
@@ -319,7 +319,7 @@ section
 	height: 100%;
 	color: #fff !important;
 	text-transform: uppercase;
-	background-color: #351338;
+	background-color: #7D2C6F;
 	text-align: center;
 }
 .login_button a
@@ -394,7 +394,7 @@ section
 }
 .logo_text span
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .header.scrolled .logo
 {
@@ -443,7 +443,7 @@ section
 .main_nav li a:hover,
 .main_nav li.active a
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .main_nav li.active::after
 {
@@ -453,7 +453,7 @@ section
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: #351338;
+	background: #7D2C6F;
 	content: '';
 }
 .search_button
@@ -480,7 +480,7 @@ section
 .search_button:hover i,
 .shopping_cart:hover i
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .header_search_form
 {
@@ -494,7 +494,7 @@ section
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
-	background: #351338;
+	background: #7D2C6F;
 	z-index: -1;
 	opacity: 0;
 	-webkit-transition: all 400ms ease;
@@ -558,7 +558,7 @@ section
 }
 .hamburger:hover i
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 
 /*********************************
@@ -656,7 +656,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .menu .search
 {
@@ -802,7 +802,7 @@ section
 }
 .breadcrumbs ul li a:hover
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 
 /*********************************
@@ -873,7 +873,7 @@ section
 }
 .course_info_text a:hover
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .rating_r
 {
@@ -886,7 +886,7 @@ section
 	font-style: normal;
 	font-size: 14px;
 	margin-right: 4px;
-	color: #351338;
+	color: #7D2C6F;
 }
 .rating_r_1 i:first-child::before{content: "\f005";}
 .rating_r_2 i:first-child::before{content: "\f005";}
@@ -940,7 +940,7 @@ section
 .tab.active,
 .tab:hover
 {
-	background: #351338;
+	background: #7D2C6F;
 	color: #FFFFFF;
 }
 .tab_panels
@@ -1271,7 +1271,7 @@ section
 .review_rating_bar > div
 {
 	height: 100%;
-	background: #351338;
+	background: #7D2C6F;
 }
 .comments_container
 {
@@ -1320,7 +1320,7 @@ section
 }
 .comment_author a:hover
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .comments_container .rating_r
 {
@@ -1356,7 +1356,7 @@ section
 }
 .comment_extra a:hover
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .comment_extra a span
 {
@@ -1364,7 +1364,7 @@ section
 }
 .comment_reply a i
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .comments_list li ul
 {
@@ -1387,7 +1387,7 @@ section
 }
 .add_comment_text a
 {
-	color: #351338;
+	color: #7D2C6F;
 	text-decoration: underline;
 }
 
@@ -1422,7 +1422,7 @@ section
 	font-family: 'Roboto Slab', serif;
 	font-size: 24px;
 	font-weight: 400;
-	color: #351338;
+	color: #7D2C6F;
 }
 .feature_list
 {
@@ -1447,7 +1447,7 @@ section
 	transform: translateY(-50%);
 	left: 0;
 	font-size: 18px;
-	color: #351338;
+	color: #7D2C6F;
 }
 .sidebar_teacher
 {
@@ -1486,7 +1486,7 @@ section
 }
 .teacher_name a:hover
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .teacher_meta_container
 {
@@ -1509,7 +1509,7 @@ section
 }
 .teacher_meta_text i
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .teacher_info
 {
@@ -1558,14 +1558,14 @@ section
 }
 .latest_title a:hover
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .latest_price
 {
 	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
 	font-weight: 700;
-	color: #351338;
+	color: #7D2C6F;
 	line-height: 0.75;
 	margin-top: 16px;
 }
@@ -1673,7 +1673,7 @@ section
 	cursor: pointer;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: #351338;
+	color: #7D2C6F;
 	font-weight: 500;
 	letter-spacing: 0.1em;
 }
@@ -1720,7 +1720,7 @@ section
 }
 .footer_logo_text span
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .footer_title
 {
@@ -1776,7 +1776,7 @@ section
 }
 .footer_social ul li:hover
 {
-	background: #351338;
+	background: #7D2C6F;
 }
 .footer_contact
 {
@@ -1826,7 +1826,7 @@ section
 }
 .footer_links_container ul li a:hover
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .footer_mobile
 {
@@ -1866,7 +1866,7 @@ section
 }
 .cr_text a:hover
 {
-	color: #351338;
+	color: #7D2C6F;
 }
 .cr_list li:not(:last-child)
 {
@@ -1884,5 +1884,5 @@ section
 }
 .cr_list li a:hover
 {
-	color: #351338;
+	color: #7D2C6F;
 }
