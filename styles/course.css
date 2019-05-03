@@ -62,11 +62,14 @@ ul
 {
 	list-style: none;
 	margin-bottom: 0px;
+	font-size: 17px;
+	line-height: 1.9;
+	color:#76777a
 }
 p
 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.85;
 	font-weight: 400;
 	color: #76777a;
@@ -987,7 +990,8 @@ section
 }
 .tab_panel_text p
 {
-	font-size: 16px;
+	font-size: 17px;
+	line-height: 1.9;
 	font-weight: 400;
 	color: #76777a;
 	line-height: 1.75;
@@ -1468,8 +1472,9 @@ section
 }
 .teacher_position
 {
-	font-size: 14px;
+	font-size: 17px;
 	color: #76777a;
+	font-weight: 500;
 	margin-top: 4px;
 }
 .teacher_name a
