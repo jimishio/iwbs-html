@@ -962,10 +962,16 @@ section
 {
 	margin: 20px 0px;
 }
+.mem-desc{
+	min-height: 48px;
+}
 .blog_quote i
 {
 	font-size: 30px;
-	color: #7D2C6F;
+    margin-right: -7px;
+    color: #7D2C6F;
+    text-align: center;
+    width: 22px;
 }
 .blog_quote div
 {
@@ -1369,15 +1375,15 @@ section
 .home_slider_content
 {
 	position: absolute;
-	top: 42%;
+	top: 68%;
 	left: 0;
-	width: 100%;
+	width: 60%;
 	height: auto;
 }
 .home_slider_title
 {
 	font-family: 'Muli', serif;
-	padding:30px;
+	padding:0px;
 	background-color: rgba(0, 0, 0, 0.7);
 	font-size: 60px;
 	font-weight: 700;
