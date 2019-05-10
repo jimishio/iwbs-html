@@ -975,10 +975,10 @@ section
 }
 .blog_quote div
 {
-	font-size: 18px;
+	font-size: 17px;
 	font-style: italic;
-	line-height: 1.66;
-	color: #384158;
+	line-height: 1.9;
+	color: #76777a;
 	padding-left: 36px;
 }
 .blog_subtitle

@@ -915,7 +915,8 @@ section
 }
 .course_title
 {
-
+	text-transform: uppercase;
+	margin-bottom: 16px;
 }
 .course_title a
 {
