@@ -1389,6 +1389,10 @@ section
 	font-weight: 700;
 	line-height: 1.2;
 	color: #ffffff;
+	position: absolute;
+    width:1080px;
+    padding:30px;
+    background-color: rgba(125,44,111, 0.75);
 }
 .home_slider_subtitle
 {
