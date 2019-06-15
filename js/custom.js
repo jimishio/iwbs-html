@@ -47,6 +47,7 @@ $(document).ready(function()
 	initHomeSlider();
 	initMilestones();
 	initAccordions();
+	initPartnersSlider();
 
 	/* 
 
@@ -127,6 +128,45 @@ $(document).ready(function()
 						$(window).trigger('resize.px.parallax');
 					}
 				});
+			});
+		}
+	}
+
+	function initPartnersSlider()
+	{
+		if($('.partners_slider').length)
+		{
+			var partnersSlider = $('.partners_slider');
+			partnersSlider.owlCarousel(
+			{
+				loop:true,
+				autoplay:true,
+				smartSpeed:1200,
+				nav:false,
+				dots:false,
+				responsive:
+				{
+					0:
+					{
+						items:1
+					},
+					480:
+					{
+						items:2
+					},
+					720:
+					{
+						items:3
+					},
+					991:
+					{
+						items:4
+					},
+					1199:
+					{
+						items:6
+					}
+				}
 			});
 		}
 	}
