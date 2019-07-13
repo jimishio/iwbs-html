@@ -166,10 +166,6 @@ $(document).ready(function()
 					{
 						items:5
 					},
-					580:
-					{
-						items:6
-					},
 					680:
 					{
 						items:7
