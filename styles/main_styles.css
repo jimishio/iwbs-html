@@ -2244,6 +2244,9 @@ section
 {
 	padding-right: 30px;
 }
+.italic{
+	font-style: italic;
+}
 .news_post_large
 {
 	width: 100%;
@@ -2706,7 +2709,7 @@ section
 	height: 100%;
 	cursor: pointer;
 }
-.partner_item img
+.partner_item a img
 {
 	position: relative;
 	width: 110px !important;
@@ -2725,7 +2728,7 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.partner_item:hover img
+.partner_item:hover a img
 {
 	-webkit-filter: grayscale(0%);
   	filter: grayscale(0%);

@@ -150,21 +150,33 @@ $(document).ready(function()
 					{
 						items:1
 					},
-					480:
+					180:
 					{
 						items:2
 					},
-					720:
+					280:
 					{
 						items:3
 					},
-					991:
+					380:
 					{
 						items:4
 					},
-					1199:
+					480:
+					{
+						items:5
+					},
+					580:
 					{
 						items:6
+					},
+					680:
+					{
+						items:7
+					},
+					1199:
+					{
+						items:8
 					}
 				}
 			});
