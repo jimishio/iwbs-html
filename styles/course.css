@@ -42,6 +42,12 @@
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
+.underlined{
+	text-decoration: underline;
+}
+.bold{
+	font-weight: bold !important;
+}
 body
 {
 	font-family: 'Muli', sans-serif;

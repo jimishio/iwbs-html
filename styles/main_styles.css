@@ -2244,6 +2244,9 @@ section
 {
 	padding-right: 30px;
 }
+.underlined{
+	text-decoration: underline;
+}
 .italic{
 	font-style: italic;
 }
