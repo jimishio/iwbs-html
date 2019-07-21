@@ -141,7 +141,7 @@ $(document).ready(function()
 			{
 				loop:true,
 				autoplay:true,
-				smartSpeed:1200,
+				smartSpeed:2100,
 				nav:false,
 				dots:false,
 				responsive:
@@ -150,29 +150,53 @@ $(document).ready(function()
 					{
 						items:1
 					},
-					180:
+					40:
 					{
 						items:2
 					},
-					280:
+					100:
 					{
 						items:3
 					},
-					380:
+					200:
 					{
 						items:4
 					},
-					480:
+					300:
 					{
 						items:5
 					},
-					680:
+					400:
 					{
 						items:7
 					},
-					1199:
+					500:
 					{
 						items:8
+					},
+					600:
+					{
+						items:9
+					},
+					700:
+					{
+						items:10
+					},
+					800:
+					{
+						items:11
+					},
+					900:
+					{
+						items:12
+					},
+					1000:
+					{
+						items:13
+					},
+					1100:
+					{
+						items:14
 					}
 				}
 			});
