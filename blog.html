@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Blog</title>
+<title>Blog by IWBS</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Unicat project">
@@ -11,6 +11,8 @@
 <link href="plugins/video-js/video-js.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/blog.css">
 <link rel="stylesheet" type="text/css" href="styles/blog_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/style2.css" />
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 </head>
 <body>
 
@@ -21,32 +23,6 @@
 	<header class="header">
 			
 		<!-- Top Bar -->
-		<div class="top_bar">
-			<div class="top_bar_container">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
-								<ul class="top_bar_contact_list">
-									<li><div class="question">Have any questions?</div></li>
-									<li>
-										<i class="fa fa-phone" aria-hidden="true"></i>
-										<div>001-1234-88888</div>
-									</li>
-									<li>
-										<i class="fa fa-envelope-o" aria-hidden="true"></i>
-										<div>info.deercreative@gmail.com</div>
-									</li>
-								</ul>
-								<div class="top_bar_login ml-auto">
-									<div class="login_button"><a href="#">Register or Login</a></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>				
-		</div>
 
 		<!-- Header Content -->
 		<div class="header_container">
@@ -56,23 +32,19 @@
 						<div class="header_content d-flex flex-row align-items-center justify-content-start">
 							<div class="logo_container">
 								<a href="#">
-									<div class="logo_text">Unic<span>at</span></div>
+									<div class="logo_text">
+										<img src="images/logo.png" style="width:90px"/>
+									</div>
 								</a>
 							</div>
 							<nav class="main_nav_contaner ml-auto">
 								<ul class="main_nav">
-									<li><a href="index.html">Home</a></li>
-									<li><a href="about.html">About</a></li>
+									<li><a href="#">Home</a></li>
 									<li><a href="courses.html">Courses</a></li>
-									<li><a href="blog.html">Blog</a></li>
-									<li><a href="#">Page</a></li>
+									<li><a href="team.html">Educators</a></li>
+									<li class="active"><a href="#">Blog</a></li class="active">
 									<li><a href="contact.html">Contact</a></li>
 								</ul>
-								<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>
-
-								<!-- Hamburger -->
-
-								<div class="shopping_cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
 								<div class="hamburger menu_mm">
 									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
 								</div>
@@ -83,6 +55,7 @@
 				</div>
 			</div>
 		</div>
+
 
 		<!-- Header Search Panel -->
 		<div class="header_search_container">
@@ -107,44 +80,17 @@
 
 	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
 		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
-		<div class="search">
-			<form action="#" class="header_search_form menu_mm">
-				<input type="search" class="search_input menu_mm" placeholder="Search" required="required">
-				<button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
-					<i class="fa fa-search menu_mm" aria-hidden="true"></i>
-				</button>
-			</form>
-		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
 				<li class="menu_mm"><a href="index.html">Home</a></li>
-				<li class="menu_mm"><a href="#">About</a></li>
-				<li class="menu_mm"><a href="#">Courses</a></li>
-				<li class="menu_mm"><a href="#">Blog</a></li>
-				<li class="menu_mm"><a href="#">Page</a></li>
+				<li class="menu_mm"><a href="courses.html">Courses</a></li>
+				<li class="menu_mm"><a href="team.html">Educators</a></li>
+				<li class="menu_mm"><a href="blog.html">Blog</a></li>
 				<li class="menu_mm"><a href="contact.html">Contact</a></li>
 			</ul>
 		</nav>
 	</div>
 	
-	<!-- Home -->
-
-	<div class="home">
-		<div class="breadcrumbs_container">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="breadcrumbs">
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li>Blog</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>			
-	</div>
 
 	<!-- Blog -->
 
@@ -152,21 +98,25 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
+					<h1> Blogs By IWBS</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
 					<div class="blog_post_container">
 
 						<!-- Blog Post -->
 						<div class="blog_post trans_200">
-							<div class="blog_post_image"><img src="images/blog_1.jpg" alt=""></div>
 							<div class="blog_post_body">
-								<div class="blog_post_title"><a href="blog_single.html">Here’s What You Need to Know About Online Testing</a></div>
+								<div class="blog_post_title"><a href="https://blog.iwbs.in/2020/01/06/iwbs-conversations/">IWBS Conversations</a></div>
 								<div class="blog_post_meta">
 									<ul>
-										<li><a href="#">admin</a></li>
-										<li><a href="#">november 11, 2017</a></li>
+										<li><a href="#">Sahil Misra</a></li>
+										<li><a href="#">Jan 06, 2020</a></li>
 									</ul>
 								</div>
 								<div class="blog_post_text">
-									<p>Policy analysts generally agree on a need for reform, but not on which path policymakers should take...</p>
+									<p>A top beverage expert, Karina Aggarwal, or “Gigglewater”, as she is affably known, is the lady behind one of India’s first and foremost alcohol appreciation portals gigglewater411.com...</p>
 								</div>
 							</div>
 						</div>
@@ -174,95 +124,49 @@
 						<!-- Blog Post -->
 						<div class="blog_post trans_200">
 							<div class="blog_post_body">
-								<div class="blog_post_title"><a href="blog_single.html">With Changing Students and Times</a></div>
+								<div class="blog_post_title"><a href="https://blog.iwbs.in/2020/01/04/beer-the-cradle-of-civilisation/">Beer – The Cradle Of Civilisation</a></div>
 								<div class="blog_post_meta">
 									<ul>
-										<li><a href="#">admin</a></li>
-										<li><a href="#">november 11, 2017</a></li>
+										<li><a href="#">Sahil Misra</a></li>
+										<li><a href="#">Jan 06, 2020</a></li>
 									</ul>
 								</div>
 								<div class="blog_post_text">
-									<p>Policy analysts generally agree on a need for reform, but not on which path policymakers should take...</p>
+									<p>Beer is more than just the most widely consumed and oldest man-made beverage. It wasn’t even created for leisurely consumption. Rather...</p>
 								</div>
 							</div>
 						</div>
 
 						<!-- Blog Post -->
 						<div class="blog_post trans_200">
-							<div class="blog_post_video_container">
-								<video class="blog_post_video video-js" data-setup='{"controls": true, "autoplay": false, "preload": "auto", "poster": "images/blog_2.jpg"}'>
-									<source src="images/mov_bbb.mp4" type="video/mp4">
-									<source src="images/mov_bbb.ogg" type="video/ogg">
-									Your browser does not support HTML5 video.
-								</video>
-							</div>
+							<div class="blog_post_image"><img src="https://blog.iwbs.in/wp-content/uploads/2020/01/IMG_20190515_132942-1180x770-1.jpg" alt=""></div>
 							<div class="blog_post_body">
-								<div class="blog_post_title"><a href="blog_single.html">Building Skills Outside the Classroom With New Ways</a></div>
+								<div class="blog_post_title"><a href="blog_single.html">Sherry – An Idea Who’s Time Has Come</a></div>
 								<div class="blog_post_meta">
 									<ul>
-										<li><a href="#">admin</a></li>
-										<li><a href="#">november 11, 2017</a></li>
+										<li><a href="#">Gagan Sharma</a></li>
+										<li><a href="#">Jan 06, 2020</a></li>
 									</ul>
 								</div>
 								<div class="blog_post_text">
-									<p>Policy analysts generally agree on a need for reform, but not on which path policymakers should take...</p>
+									<p>Gagan Sharma visits the Sherry Triangle and gives us the lowdown on a great wine style that deserves far more love than it gets...</p>
 								</div>
 							</div>
 						</div>
 
 						<!-- Blog Post -->
 						<div class="blog_post trans_200">
-							<div class="blog_post_image"><img src="images/blog_3.jpg" alt=""></div>
+							<div class="blog_post_image"><img src="https://blog.iwbs.in/wp-content/uploads/2020/01/iwbs-intro-1034x1536.jpg" alt=""></div>
 							<div class="blog_post_body">
-								<div class="blog_post_title"><a href="blog_single.html">Law Schools Debate a Contentious Testing Alternative</a></div>
+								<div class="blog_post_title"><a href="https://blog.iwbs.in/2020/01/02/bloody-mary-a-classic-cocktail/">Bloody Mary – A Classic Cocktail</a></div>
 								<div class="blog_post_meta">
 									<ul>
-										<li><a href="#">admin</a></li>
-										<li><a href="#">november 11, 2017</a></li>
+										<li><a href="#">Gagan Sharma</a></li>
+										<li><a href="#">Jan 02, 2020</a></li>
 									</ul>
 								</div>
 								<div class="blog_post_text">
-									<p>Policy analysts generally agree on a need for reform, but not on which path policymakers should take...</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- Blog Post -->
-						<div class="blog_post trans_200">
-							<div class="blog_post_video_container">
-								<video class="blog_post_video video-js" data-setup='{"controls": true, "autoplay": false, "preload": "auto", "poster": "images/blog_4.jpg"}'>
-									<source src="images/mov_bbb.mp4" type="video/mp4">
-									<source src="images/mov_bbb.ogg" type="video/ogg">
-									Your browser does not support HTML5 video.
-								</video>
-							</div>
-							<div class="blog_post_body">
-								<div class="blog_post_title"><a href="blog_single.html">Building Skills Outside the Classroom With New Ways</a></div>
-								<div class="blog_post_meta">
-									<ul>
-										<li><a href="#">admin</a></li>
-										<li><a href="#">november 11, 2017</a></li>
-									</ul>
-								</div>
-								<div class="blog_post_text">
-									<p>Policy analysts generally agree on a need for reform, but not on which path policymakers should take...</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- Blog Post -->
-						<div class="blog_post trans_200">
-							<div class="blog_post_image"><img src="images/blog_5.jpg" alt=""></div>
-							<div class="blog_post_body">
-								<div class="blog_post_title"><a href="blog_single.html">Here’s What You Need to Know About Online Testing</a></div>
-								<div class="blog_post_meta">
-									<ul>
-										<li><a href="#">admin</a></li>
-										<li><a href="#">november 11, 2017</a></li>
-									</ul>
-								</div>
-								<div class="blog_post_text">
-									<p>Policy analysts generally agree on a need for reform, but not on which path policymakers should take...</p>
+									<p>What created in a spur of a moment as a simple vodka and tomato juice combination in early 1920s became the famous cocktail called Blo...</p>
 								</div>
 							</div>
 						</div>
@@ -270,15 +174,47 @@
 						<!-- Blog Post -->
 						<div class="blog_post trans_200">
 							<div class="blog_post_body">
-								<div class="blog_post_title"><a href="blog_single.html">With Changing Students and Times</a></div>
+								<div class="blog_post_title"><a href="https://blog.iwbs.in/2020/01/02/austrian-golden-nectar-neuburger-beerenauslese/">Austrian Golden Nectar – Neuburger Beerenauslese</a></div>
 								<div class="blog_post_meta">
 									<ul>
-										<li><a href="#">admin</a></li>
-										<li><a href="#">november 11, 2017</a></li>
+										<li><a href="#">Sahil Misra</a></li>
+										<li><a href="#">Jan 02, 2020</a></li>
 									</ul>
 								</div>
 								<div class="blog_post_text">
-									<p>Policy analysts generally agree on a need for reform, but not on which path policymakers should take...</p>
+									<p>Austria has a long history of making distinctive fine wines. More than 60 million years ago wild vines were already existed across Austria, and wines were produced by the Celts ...</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Blog Post -->
+						<div class="blog_post trans_200">
+							<div class="blog_post_body">
+								<div class="blog_post_title"><a href="https://blog.iwbs.in/2015/05/21/australian-diaries/">Australian Diaries</a></div>
+								<div class="blog_post_meta">
+									<ul>
+										<li><a href="#">Sahil Misra</a></li>
+										<li><a href="#">May 21, 2015</a></li>
+									</ul>
+								</div>
+								<div class="blog_post_text">
+									<p>“Wine is sunlight captured by water”, Galileo once rightly said. Fundamentally, this is what wine is – what nature gives and the earth captures...</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Blog Post -->
+						<div class="blog_post trans_200">
+							<div class="blog_post_body">
+								<div class="blog_post_title"><a href="https://blog.iwbs.in/2015/02/03/the-great-indian-red-reserve-wines-report/">The Great Indian Red Reserve Wines Report</a></div>
+								<div class="blog_post_meta">
+									<ul>
+										<li><a href="#">Sahil Misra</a></li>
+										<li><a href="#">Feb 03, 2015</a></li>
+									</ul>
+								</div>
+								<div class="blog_post_text">
+									<p>For the first time in India a tasting was put together of the reserve reds produced by the local winemakers. While it can be hard...</p>
 								</div>
 							</div>
 						</div>
@@ -288,7 +224,7 @@
 			</div>
 			<div class="row">
 				<div class="col text-center">
-					<div class="load_more trans_200"><a href="#">load more</a></div>
+					<div class="load_more trans_200"><a href="https://blog.iwbs.in">load more</a></div>
 				</div>
 			</div>
 		</div>
@@ -328,101 +264,17 @@
 	<footer class="footer">
 		<div class="footer_background" style="background-image:url(images/footer_background.png)"></div>
 		<div class="container">
-			<div class="row footer_row">
-				<div class="col">
-					<div class="footer_content">
-						<div class="row">
-
-							<div class="col-lg-3 footer_col">
-					
-								<!-- Footer About -->
-								<div class="footer_section footer_about">
-									<div class="footer_logo_container">
-										<a href="#">
-											<div class="footer_logo_text">Unic<span>at</span></div>
-										</a>
-									</div>
-									<div class="footer_about_text">
-										<p>Lorem ipsum dolor sit ametium, consectetur adipiscing elit.</p>
-									</div>
-									<div class="footer_social">
-										<ul>
-											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-										</ul>
-									</div>
-								</div>
-								
-							</div>
-
-							<div class="col-lg-3 footer_col">
-					
-								<!-- Footer Contact -->
-								<div class="footer_section footer_contact">
-									<div class="footer_title">Contact Us</div>
-									<div class="footer_contact_info">
-										<ul>
-											<li>Email: Info.deercreative@gmail.com</li>
-											<li>Phone:  +(88) 111 555 666</li>
-											<li>40 Baria Sreet 133/2 New York City, United States</li>
-										</ul>
-									</div>
-								</div>
-								
-							</div>
-
-							<div class="col-lg-3 footer_col">
-					
-								<!-- Footer links -->
-								<div class="footer_section footer_links">
-									<div class="footer_title">Contact Us</div>
-									<div class="footer_links_container">
-										<ul>
-											<li><a href="index.html">Home</a></li>
-											<li><a href="about.html">About</a></li>
-											<li><a href="contact.html">Contact</a></li>
-											<li><a href="#">Features</a></li>
-											<li><a href="courses.html">Courses</a></li>
-											<li><a href="#">Events</a></li>
-											<li><a href="#">Gallery</a></li>
-											<li><a href="#">FAQs</a></li>
-										</ul>
-									</div>
-								</div>
-								
-							</div>
-
-							<div class="col-lg-3 footer_col clearfix">
-					
-								<!-- Footer links -->
-								<div class="footer_section footer_mobile">
-									<div class="footer_title">Mobile</div>
-									<div class="footer_mobile_content">
-										<div class="footer_image"><a href="#"><img src="images/mobile_1.png" alt=""></a></div>
-										<div class="footer_image"><a href="#"><img src="images/mobile_2.png" alt=""></a></div>
-									</div>
-								</div>
-								
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
 
 			<div class="row copyright_row">
 				<div class="col">
 					<div class="copyright d-flex flex-lg-row flex-column align-items-center justify-content-start">
 						<div class="cr_text"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by IWBS</div>
 						<div class="ml-lg-auto cr_links">
 							<ul class="cr_list">
-								<li><a href="#">Copyright notification</a></li>
-								<li><a href="#">Terms of Use</a></li>
-								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 							</ul>
 						</div>
 					</div>

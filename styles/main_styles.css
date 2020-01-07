@@ -932,7 +932,7 @@ section
 }
 .blog_meta ul li a:hover
 {
-	color: #14bdee;
+	color: #7D2C6F;
 }
 .blog_meta ul li:not(:last-child)::after
 {
@@ -1039,7 +1039,7 @@ section
 }
 .blog_tags ul li a:hover
 {
-	color: #14bdee;
+	color: #7D2C6F;
 }
 .blog_social span
 {
@@ -1071,7 +1071,7 @@ section
 }
 .blog_social ul li:hover i
 {
-	color: #14bdee;
+	color: #7D2C6F;
 }
 .comments_container
 {
@@ -1130,7 +1130,7 @@ section
 }
 .comment_author a:hover
 {
-	color: #14bdee;
+	color: #7D2C6F;
 }
 .comments_container .rating_r
 {
@@ -1173,7 +1173,7 @@ section
 }
 .comment_extra a:hover
 {
-	color: #14bdee;
+	color: #7D2C6F;
 }
 .comment_extra a span
 {
@@ -1215,7 +1215,7 @@ section
 }
 .comment_input:focus
 {
-	border: solid 1px #14bdee;
+	border: solid 1px #7D2C6F;
 	outline: none;
 }
 .comment_textarea
@@ -1250,7 +1250,7 @@ section
 	appearance: none;
 	width: 14px;
     height: 14px;
-	background: #14bdee;
+	background: #7D2C6F;
 	border-radius: 3px;
 	cursor: pointer;
 	vertical-align: middle;
@@ -1290,7 +1290,7 @@ section
 {
 	width: 150px;
 	height: 46px;
-	background: #14bdee;
+	background: #7D2C6F;
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 500;
