@@ -822,6 +822,10 @@ section
 {
 	width: 100%;
 }
+.blog_post_container.partners .blog_post{
+	padding: 20px;
+	text-align: center;
+}
 .blog_post
 {
 	width: calc((100% - 60px) / 3);
